@@ -7,14 +7,26 @@
 }
 
 header{
-  width:100vh;
-  height:40px;
+  width:100vw;
+  height:50px;
   background: rgba(0, 0 ,0 , 0.5);
+  display: flex;
+  align-items:center;
+  justify-content:center;
 }
 
 header ul{
   display:flex;
-  width:50%;
+  width:40%;
   align-items:center;
-  justify-content: space-around;
+  justify-content: space-evenly;
 }
+
+header ul li{
+  list-style-type: none;
+  padding: 5px, 10px;
+  border-radius:5px;
+  background-color: lightgreen;
+  font-weight:600;
+}
+
