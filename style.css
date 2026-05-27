@@ -1,0 +1,20 @@
+*{
+  padding:0;
+  margin:0;
+  box-sizing:border-box;
+  scroll-behavior:'smooth';
+  font-family:'system-ui', 'san sirf';
+}
+
+header{
+  width:100vh;
+  height:40px;
+  background: rgba(0, 0 ,0 , 0.5);
+}
+
+header ul{
+  display:flex;
+  width:50%;
+  align-items:center;
+  justify-content: space-around;
+}
